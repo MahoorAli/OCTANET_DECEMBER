@@ -1,0 +1,112 @@
+body{
+    margin:20px;
+    background-image: url('https://fortechocolates.com/wp-content/uploads/2021/01/heartschcol.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.navbar{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar ul{
+    overflow:auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 14px 20px;
+}
+
+.navbar li a{
+    padding: 0px 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover{
+    color:red;
+}
+
+.search{
+    float:right;
+    color:white;
+    padding: 12px 85px;
+}
+
+.navbar input{
+    border: 2px solid rgb(123,62,62);
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+h2{
+    font-family: Bodoni MT Black;
+    color:white;
+    font-size: 110px;
+    font-weight: bold;
+    padding: 3px 50px;
+    margin:3px 19px;
+    text-align: center;
+    font-style: italic;
+}
+
+h1{
+    font-family: Bodoni MT Black;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 3px 50px;
+    margin: 1px 550px;
+    text-align: centre;
+}
+
+strong{
+    font-size: 30px;
+    color:white;
+    padding: 30px;
+    margin: 40px;
+}
+
+marquee{
+    font-size: 20px;
+    color: yellow;
+    font-weight: bolder;
+}
+
+img{
+    width: 140px;
+    height: 100px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+p{
+    width: 40%;
+    background-color: rgb(181 188 181);
+    color: black;
+    font-size: 30px;
+    font-family: "Autowide",sans-serif;
+    font-weight: 800px;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 230px;
+    right: 40px;
+}
+
+footer{
+    background-color: rgb(181 188 181);
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Autowide",sans-serif;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 370px;
+    left: 600px;
+}
